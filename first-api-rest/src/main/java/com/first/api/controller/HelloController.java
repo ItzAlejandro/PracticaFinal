@@ -12,33 +12,33 @@ public class HelloController {
     //Agregamos algo nuevo 2
     @GetMapping("/hello")
     public String saludar(){
-        return "Hola Mundo con REST en Spring Boot";
+        return "Hola Mundo con REST en Spring Boot Kevin";
     }
 
     //Este es otro comentario
     //Agregamos algo 1
     @GetMapping("/hello2")
     public String saludar2(){
-        return "Hola Mundo con REST en Spring Boot";
+        return "Hola Mundo con REST en Spring Boot Kevin";
     }
 
 
     @GetMapping("/hello3")
     public String saludar3(){
-        return "Hola Mundo con REST en Spring Boot";
+        return "Hola Mundo con REST en Spring Boot Kevin";
     }
 
 
     @GetMapping("/hello4")
     public String saludar4(){
-        return "Hola Mundo con REST en Spring Boot";
+        return "Hola Mundo con REST en Spring Boot Kevin";
     }
 
 
     //Otro comentario
     @GetMapping("/hello6")
     public String saludar6(){
-        return "Hola Mundo con REST en Spring Boot";
+        return "Hola Mundo con REST en Spring Boot Kevin";
     }
 }
 
